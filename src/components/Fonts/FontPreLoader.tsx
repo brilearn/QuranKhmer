@@ -11,7 +11,7 @@ const SURAH_NAMES_FONT = {
 
 const LOCALE_PRELOADED_FONTS = {
   [DEFAULT_LOCALE]: [
-    { type: 'font/ttf', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
+    { type: 'font/truetype', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
     { ...SURAH_NAMES_FONT },
   ],
   ar: [
@@ -39,7 +39,7 @@ const INDOPAK = {
 
 const QURAN_READER_LOCALE_PRELOADED_FONTS = {
   [DEFAULT_LOCALE]: [
-    { type: 'font/woff2', location: '/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2' },
+    { type: 'font/truetype', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
   ],
   bn: [INDOPAK],
   ur: [INDOPAK],
