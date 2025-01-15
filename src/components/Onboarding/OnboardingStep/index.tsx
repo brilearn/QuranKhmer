@@ -13,8 +13,6 @@ import { useOnboarding } from '@/components/Onboarding/OnboardingProvider';
 import Button, { ButtonSize, ButtonType, ButtonVariant } from '@/dls/Button/Button';
 import ChevronLeftIcon from '@/icons/chevron-left.svg';
 import ChevronRightIcon from '@/icons/chevron-right.svg';
-import OnboardingGroup from '@/types/OnboardingGroup';
-import { isLoggedIn } from '@/utils/auth/login';
 import { logButtonClick } from '@/utils/eventLogger';
 
 type OnboardingStepProps = TooltipRenderProps & {
