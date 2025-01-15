@@ -12,7 +12,7 @@ test('Clicking on Nav bar language selector icon should open the language select
   // 2. Click on the language selector nav bar trigger
   await page.locator('[aria-label="Select Language"]').click();
   // 3. Make sure the language selector items are visible
-  await expect(page.locator('div[role="menuitem"]:has-text("khmer")')).toBeVisible();
+  await expect(page.locator('div[role="menuitem"]:has-text("ភាសាខ្មែរ")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("English")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("العربية")')).toBeVisible();
   // await expect(page.locator('div[role="menuitem"]:has-text("বাংলা")')).toBeVisible();

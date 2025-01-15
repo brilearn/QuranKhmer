@@ -12,14 +12,14 @@ const DEFAULT_LANGUAGE = 'km';
 const SUPPORTED_CHAPTER_LOCALES = [
   'en',
   'ar',
-  'bn',
+  // 'bn',
   'fr',
   'id',
-  'it',
-  'nl',
-  'ru',
+  // 'it',
+  // 'nl',
+  // 'ru',
   'tr',
-  'ur',
+  // 'ur',
   'zh',
   'km'
 ];
