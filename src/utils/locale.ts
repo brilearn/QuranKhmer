@@ -9,7 +9,7 @@ import { getBasePath } from './url';
 
 const RTL_LOCALES = ['ar', 'fa', 'ur'];
 const LOCALE_NAME = {
-  km: 'Central Khmer',
+  km: 'ភាសាខ្មែរ',
   en: 'English',
   ar: 'العربية',
   bn: 'বাংলা',

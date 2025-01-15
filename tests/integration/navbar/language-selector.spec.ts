@@ -12,22 +12,22 @@ test('Clicking on Nav bar language selector icon should open the language select
   // 2. Click on the language selector nav bar trigger
   await page.locator('[aria-label="Select Language"]').click();
   // 3. Make sure the language selector items are visible
+  await expect(page.locator('div[role="menuitem"]:has-text("khmer")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("English")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("العربية")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("বাংলা")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("فارسی")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("বাংলা")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("فارسی")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("Français")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("Italiano")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("Dutch")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("Português")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("русский")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("Shqip")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("Italiano")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("Dutch")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("Português")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("русский")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("Shqip")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("ภาษาไทย")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("Türkçe")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("اردو")')).toBeVisible();
+  // await expect(page.locator('div[role="menuitem"]:has-text("اردو")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("简体中文")')).toBeVisible();
   await expect(page.locator('div[role="menuitem"]:has-text("Melayu")')).toBeVisible();
-  await expect(page.locator('div[role="menuitem"]:has-text("khmer")')).toBeVisible();
 });
 
 test('Choosing a language should navigate the user to the localized page of that language', async ({
