@@ -44,11 +44,6 @@ const OnboardingStep = ({
   });
 
   const stepData = useMemo(() => {
-    // show all but the first step (login button)
-    if (activeStepGroup === OnboardingGroup.PERSONALIZED_FEATURES && isLoggedIn()) {
-      return allSteps[activeStepGroup].slice(1)[index];
-    }
-
     return allSteps[activeStepGroup][index];
   }, [activeStepGroup, allSteps, index]);
 
