@@ -34,6 +34,7 @@ export enum QuranFont {
   IndoPak = 'text_indopak',
   QPCHafs = 'qpc_uthmani_hafs',
   Tajweed = 'tajweed',
+  khmer = 'khmer',
 }
 export const FALLBACK_FONT = QuranFont.QPCHafs;
 
