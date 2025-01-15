@@ -37,6 +37,10 @@ export const RemotionRoot = () => {
     'PlayfairDisplay',
     `url('${staticFile('/PlayfairDisplay-Black.ttf')}') format('truetype')`,
   );
+  const khmer = new FontFace(
+    'Battambang',
+    `url('${staticFile('/Battambang-Regular.ttf')}') format('truetype')`,
+  );
 
   Promise.all([
     uthmanicHafsFont.load(),
@@ -44,12 +48,14 @@ export const RemotionRoot = () => {
     indopakFont.load(),
     proximaVaraFont.load(),
     playfairDisplay.load(),
+    khmer.load(),
   ])
     .then(() => {
       document.fonts.add(uthmanicHafsFont);
       document.fonts.add(notoNastaliqFont);
       document.fonts.add(indopakFont);
       document.fonts.add(proximaVaraFont);
+      document.fonts.add(khmer);
       document.fonts.add(playfairDisplay);
       continueRender(waitForFont);
     })

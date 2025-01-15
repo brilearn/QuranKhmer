@@ -20,13 +20,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Battambang";
-  src:
-    url("/fonts/lang/khmer/Battambang-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-
 // TODO: regenerate this font and add font-family name
 @font-face {
   font-family: "surahnames";
@@ -78,6 +71,13 @@
 @font-face {
   font-family: "NotoSerifBengali";
   src: local("Noto Serif Bengali"), url("/fonts/lang/bengali/NotoSerifBengali-Regular.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Battambang";
+  src:
+    url("/fonts/lang/khmer/Battambang-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
