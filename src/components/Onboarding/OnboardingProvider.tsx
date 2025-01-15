@@ -13,7 +13,6 @@ import { checklistIndexToOnboardingSteps } from './steps';
 import useScrollToTop from '@/hooks/useScrollToTop';
 import { selectOnboardingActiveStep, setActiveStepIndex } from '@/redux/slices/onboarding';
 import OnboardingGroup from '@/types/OnboardingGroup';
-import { isLoggedIn } from '@/utils/auth/login';
 
 const Joyride = dynamic(() => import('react-joyride'), { ssr: false });
 interface OnboardingContextType {
