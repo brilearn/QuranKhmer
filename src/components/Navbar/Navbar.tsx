@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classNames from 'classnames';
-import useTranslation from 'next-translate/useTranslation';
+// import useTranslation from 'next-translate/useTranslation';
 import { useSelector, shallowEqual } from 'react-redux';
 
 import styles from './Navbar.module.scss';
@@ -15,7 +15,7 @@ import { selectNavbar } from '@/redux/slices/navbar';
 const Navbar = () => {
   const { isActive } = useOnboarding();
   const { isVisible: isNavbarVisible } = useSelector(selectNavbar, shallowEqual);
-  const { t } = useTranslation('common');
+  // const { t } = useTranslation('common');
   const showNavbar = isNavbarVisible || isActive;
 
   return (
