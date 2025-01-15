@@ -1,0 +1,22 @@
+{
+  "all-notifications": "ការជូនដំណឹងទាំងអស់។",
+  "channels-notifications": "ការជូនដំណឹងរបស់ប៉ុស្តិ៍",
+  "channels": {
+    "chat": "ជជែក",
+    "email": "អ៊ីមែល",
+    "in_app": "នៅក្នុងកម្មវិធី",
+    "push": "រុញ",
+    "sms": "សារ SMS"
+  },
+  "notif-settings-not-enabled": "ការកំណត់ការជូនដំណឹងមិនត្រូវបានបើកទេ។",
+  "notif-update-success": "ការកំណត់ការជូនដំណឹងរបស់អ្នកត្រូវបានធ្វើបច្ចុប្បន្នភាពដោយជោគជ័យ!",
+  "tabs": {
+    "categories-settings": "ការកំណត់ប្រភេទ",
+    "global-settings": "ការកំណត់សកល"
+  },
+  "tags": {
+    "learning-plans": "ផែនការសិក្សា",
+    "qgj": "ដំណើររីកចម្រើនគម្ពីគូរ៉ា",
+    "streaks": "ស្ទ្រីម"
+  }
+}

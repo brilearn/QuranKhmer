@@ -1,0 +1,23 @@
+{
+  "all-saved-verses": "ខគម្ពីរដែលបានរក្សាទុកទាំងអស់។",
+  "alphabetical": "A-Z",
+  "back-to-collection-list": "ត្រលប់ទៅបញ្ជីប្រមូល។",
+  "collapse-all": "ដួលរលំខគម្ពីរទាំងអស់។",
+  "collection-list-empty": "បញ្ជីប្រមូលគឺទទេ។ អ្នកមិនទាន់បានបង្កើតបណ្តុំណាមួយនៅឡើយទេ។",
+  "collections": "ការប្រមូល",
+  "delete-bookmark": {
+    "subtitle": "តើអ្នកប្រាកដថាអ្នកចង់លុប {{bookmarkName}} ពីការប្រមូល {{collectionName}} ទេ?",
+    "title": "លុបចំណាំ។"
+  },
+  "delete-collection": {
+    "subtitle": "តើអ្នកប្រាកដថាអ្នកចង់លុបការប្រមូល {{collectionName}} ទេ?",
+    "title": "លុបការប្រមូល។"
+  },
+  "empty": "ការប្រមូលគឺទទេ។",
+  "expand-all": "ពង្រីកខគម្ពីរទាំងអស់។",
+  "go-to-ayah": "ទៅ ayah ។",
+  "load-more": "ផ្ទុកបន្ថែមទៀត។",
+  "recently-added": "ថ្មីៗនេះបានបន្ថែម។",
+  "recently-updated": "ថ្មីៗនេះ",
+  "verse-key": "ជំពូកនិងលេខខ"
+}

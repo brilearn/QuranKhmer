@@ -1,0 +1,4 @@
+{
+  "meta-description": "سورہ {{transliteratedName}} پڑھیں اور سنیں۔ یہ سورہ {{revelationPlace}} میں نازل ہوئی، قرآن میں اس کا نمبر {{chapterOrder}} ہے۔ سورہ کا عنوان {{localeName}} میں \"{{translatedName}}\" کے معنی دیتا ہے اور اس میں {{versesCount}} آیات ہیں۔",
+  "ranges-meta-desc": "آیت {{rangeFrom}} سے آیت {{rangeTo}} تک پڑھیں اور سنیں۔"
+}

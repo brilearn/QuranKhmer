@@ -1,0 +1,4 @@
+{
+  "meta-description": "អាន និងស្តាប់ Surah {{transliteratedName}} Surah ត្រូវបានបង្ហាញនៅក្នុង {{revelationPlace}} ដែលបានបញ្ជាទិញ {{chapterOrder}} នៅក្នុងគម្ពីគូរ៉ា។ ចំណងជើង Surah មានន័យថា \"{{translatedName}}\" នៅក្នុង {{localeName}} និងមានខគម្ពីរ {{versesCount}} ។.",
+  "ranges-meta-desc": "អាន និងស្តាប់ពី Ayah {{rangeFrom}} ទៅ Ayah {{rangeTo}}."
+}

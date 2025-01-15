@@ -1,0 +1,10 @@
+{
+    "delete-account": "លុបគណនី",
+    "delete-confirmation": {
+      "action-text": "ខ្ញុំយល់ពីផលវិបាក សូមលុបគណនីរបស់ខ្ញុំ",
+      "confirmation-text": "លុបគណនីរបស់ខ្ញុំ",
+      "instruction-text": "សូមវាយ <strong>{{text}}</strong> ដើម្បីបញ្ជាក់",
+      "subtitle": "សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។ ",
+      "title": "តើអ្នកប្រាកដទេ?"
+    }
+  }

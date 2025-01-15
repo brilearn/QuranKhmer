@@ -1,0 +1,34 @@
+.bookmarkItem {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-inline-end: var(--spacing-xsmall);
+  white-space: nowrap;
+}
+
+.linkButtonContainer {
+  font-weight: var(--font-weight-semibold);
+  text-decoration: underline;
+}
+
+.closeIconContainer {
+  display: flex;
+  border: none;
+  width: var(--spacing-xsmall);
+  box-sizing: border-box;
+  justify-content: center;
+  padding-inline-start: var(--spacing-small);
+  padding-inline-end: var(--spacing-small);
+  background-color: transparent;
+  color: var(--color-text-faded);
+  align-items: center;
+  & > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & svg {
+    width: var(--spacing-medium);
+    height: var(--spacing-medium);
+  }
+}

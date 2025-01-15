@@ -1,0 +1,26 @@
+{
+    "change": "ផ្លាស់ប្តូរ",
+    "curated-station": {
+        "juz-amma": {
+            "description": "ស្តាប់ Juz ចុងក្រោយនៃគម្ពីគូរ៉ា",
+            "title": "ជូស អាម៉ា"
+        },
+        "popular-recitations": {
+            "description": "មតិព័ត៌មានដែលបានរៀបចំប្រចាំថ្ងៃនៃការសូត្រ",
+            "title": "ការសូត្រដ៏ពេញនិយម"
+        },
+        "surah-al-kahf": {
+            "description": "ស្តាប់ Surah Alkahf ម្តងទៀត",
+            "title": "Surah Al-Kahf"
+        },
+        "yaseen-alwaqiah-al-mulk": {
+            "description": "Surahs ពី curation នៃ reciters មួយ។",
+            "title": "Yaseen, Al-Waqiah, Al-Mulk"
+        }
+    },
+    "curated-stations": "ស្ថានីយ៍ដែលបានរៀបចំ",
+    "pause-radio": "ផ្អាកវិទ្យុ",
+    "play-radio": "លេងវិទ្យុ",
+    "radio-desc": "ស្តាប់ការសូត្រដ៏ស្រស់ស្អាតឥតឈប់ឈរនៃគម្ពីគូរ៉ានដោយអ្នកសូត្រផ្សេងៗ។",
+    "reciter-stations": "ស្ថានីយ៍អ្នកអាន"
+}

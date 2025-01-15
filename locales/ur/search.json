@@ -1,0 +1,12 @@
+{
+  "default-translations": "ڈیفالٹ ترجمے",
+  "filter": "فلٹر",
+  "language-filter-label": "زبان کے تمام ترجمے سرچ کریں۔",
+  "language-select": "زبان منتخب کریں۔",
+  "reset": "ری سیٹ",
+  "search": "سرچ کریں۔",
+  "search-desc": "ایک طاقتور اور انتہائی درست کثیر لسانی سرچ انجن کا استعمال کرتے ہوئے قرآن پاک اور اس کے تراجم کے کارپس کو سرچ کریں۔",
+  "search-title": "' {{searchQuery}} سرچ کریں",
+  "searching-translations": "ترجمے سرچ کر رہے ہیں۔",
+  "translation-select": "ترجمہ منتخب کریں۔"
+}
