@@ -269,7 +269,31 @@ export const checklistIndexToOnboardingSteps = (
           spotlightClicks: true,
         },
       },
-    ]
+    ],
+    [OnboardingGroup.PERSONALIZED_FEATURES]: [
+      {
+        ...getDetails('login'),
+        step: {
+          ...commonStepOptions,
+          target: '#login-button',
+          placement: 'bottom',
+        },
+      },
+      {
+        ...getDetails('streak'),
+        step: {
+          ...commonStepOptions,
+          target: '#qgj-widget',
+        },
+      },
+      {
+        ...getDetails('reading-sessions'),
+        step: {
+          ...commonStepOptions,
+          target: '#reading-sessions',
+        },
+      },
+    ],
   };
 };
 
