@@ -1,7 +1,5 @@
 import DEFAULT_SETTINGS, { DefaultSettings } from '../defaultSettings';
 
-import { QuranFont } from 'types/QuranReader';
-
 const DEFAULT_TRANSLATION = 84; // Ma Jain
 
 export default {
