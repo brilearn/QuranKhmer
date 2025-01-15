@@ -115,7 +115,7 @@ export const Languages = {
   //   locale: 'ku',
   //   dir: Direction.RTL,
   // },
-  84: {
+  128: {
     // Khmer
     font: 'khmer',
     locale: 'km',
