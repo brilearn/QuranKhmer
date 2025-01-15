@@ -27,7 +27,7 @@ const LOCALE_PRELOADED_FONTS = {
     { ...SURAH_NAMES_FONT },
   ],
   km: [
-    { type: 'font/woff2', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
+    { type: 'font/ttf', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
     { ...SURAH_NAMES_FONT },
   ],
 } as Record<string, { type: string; location: string }[]>;
@@ -35,6 +35,11 @@ const LOCALE_PRELOADED_FONTS = {
 const INDOPAK = {
   type: 'font/woff2',
   location: '/fonts/quran/hafs/nastaleeq/indopak/indopak-nastaleeq-waqf-lazim-v4.2.1.woff2',
+};
+
+const khmer = {
+  type: 'font/ttf',
+  location: '/fonts/lang/khmer/Battambang-Regular.ttf',
 };
 
 const QURAN_READER_LOCALE_PRELOADED_FONTS = {
