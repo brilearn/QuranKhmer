@@ -11,7 +11,7 @@ const SURAH_NAMES_FONT = {
 
 const LOCALE_PRELOADED_FONTS = {
   [DEFAULT_LOCALE]: [
-    { type: 'font/woff2', location: '/fonts/lang/ProximaVara/ProximaVara.woff2' },
+    { type: 'font/ttf', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
     { ...SURAH_NAMES_FONT },
   ],
   ar: [
@@ -26,8 +26,8 @@ const LOCALE_PRELOADED_FONTS = {
     { type: 'font/woff2', location: '/fonts/lang/urdu/MehrNastaliqWeb.woff2' },
     { ...SURAH_NAMES_FONT },
   ],
-  km: [
-    { type: 'font/ttf', location: '/fonts/lang/khmer/Battambang-Regular.ttf' },
+  en: [
+    { type: 'font/woff2', location: '/fonts/lang/ProximaVara/ProximaVara.woff2' },
     { ...SURAH_NAMES_FONT },
   ],
 } as Record<string, { type: string; location: string }[]>;
