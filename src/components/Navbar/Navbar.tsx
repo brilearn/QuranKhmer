@@ -8,7 +8,7 @@ import styles from './Navbar.module.scss';
 import NavbarBody from './NavbarBody';
 
 import { useOnboarding } from '@/components/Onboarding/OnboardingProvider';
-import Button, { ButtonSize, ButtonType } from '@/dls/Button/Button';
+// import Button, { ButtonSize, ButtonType } from '@/dls/Button/Button';
 import { selectNavbar } from '@/redux/slices/navbar';
 import { getProductUpdatesUrl } from '@/utils/navigation';
 
