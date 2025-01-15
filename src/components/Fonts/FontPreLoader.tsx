@@ -37,11 +37,6 @@ const INDOPAK = {
   location: '/fonts/quran/hafs/nastaleeq/indopak/indopak-nastaleeq-waqf-lazim-v4.2.1.woff2',
 };
 
-const khmer = {
-  type: 'font/ttf',
-  location: '/fonts/lang/khmer/Battambang-Regular.ttf',
-};
-
 const QURAN_READER_LOCALE_PRELOADED_FONTS = {
   [DEFAULT_LOCALE]: [
     { type: 'font/woff2', location: '/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2' },
