@@ -34,7 +34,7 @@ const LOCALE_TO_REFLECTION_LANGUAGE_MAP = {
  * should be ARABIC and ENGLISH only.
  *
  * @param {string} locale e.g. 'ar'
- * @returns {ReflectionLanguage[]} e.g. ['ENGLISH', 'ARABIC']
+ * @returns {ReflectionLanguage[]} e.g. ['ENGLISH', 'ARABIC', 'KHMER']
  */
 export const localeToReflectionLanguages = (locale: string): ReflectionLanguage[] => {
   // by default English is always allowed

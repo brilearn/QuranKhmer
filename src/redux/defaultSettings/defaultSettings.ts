@@ -15,7 +15,7 @@ import {
   MushafLines,
   QuranFont,
   WordByWordDisplay,
-} from 'types/QuranReader';
+} from '@/types/QuranReader';
 import Reciter from 'types/Reciter';
 
 export interface DefaultSettings {
@@ -44,7 +44,7 @@ const TAFSIRS_INITIAL_STATE: TafsirsSettings = {
   isUsingDefaultTafsirs: true,
 };
 
-export const DEFAULT_TRANSLATIONS = [128]; // Dr. Mustafa Khattab, the Clear Quran
+export const DEFAULT_TRANSLATIONS = [131]; // Dr. Mustafa Khattab, the Clear Quran
 
 const TRANSLATIONS_INITIAL_STATE: TranslationsSettings = {
   selectedTranslations: DEFAULT_TRANSLATIONS,
@@ -62,7 +62,7 @@ const QURAN_READER_STYLES_INITIAL_STATE: QuranReaderStyles = {
   isUsingDefaultFont: true,
 };
 
-const DEFAULT_WBW_LOCALE = 'km';
+const DEFAULT_WBW_LOCALE = 'en';
 
 const READING_PREFERENCES_INITIAL_STATE: ReadingPreferences = {
   readingPreference: ReadingPreference.Translation,

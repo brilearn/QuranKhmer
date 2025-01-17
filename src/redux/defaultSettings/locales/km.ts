@@ -4,5 +4,5 @@ const DEFAULT_TRANSLATION = 84; // Ma Jain
 
 export default {
   ...DEFAULT_SETTINGS,
-  translations: { ...DEFAULT_SETTINGS.translations, selectedTranslations: [DEFAULT_TRANSLATION] },
+  translations: { ...DEFAULT_SETTINGS.translations, selectedTranslations: [128] },
 } as DefaultSettings;
